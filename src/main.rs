@@ -1,7 +1,7 @@
-use crate::chapter_17::test_naive::test_test_naive;
+use crate::chapter_17::more_chrono_fun::test_more_chrono_fun;
 
 mod chapter_17;
 
 fn main() {
-    test_test_naive();
+    test_more_chrono_fun();
 }
