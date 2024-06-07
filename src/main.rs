@@ -1,7 +1,7 @@
-use crate::chapter_17::more_chrono_fun::test_more_chrono_fun;
+use crate::chapter_17::tests_parallelism::test_parallelism;
 
 mod chapter_17;
 
 fn main() {
-    test_more_chrono_fun();
+    test_parallelism();
 }
