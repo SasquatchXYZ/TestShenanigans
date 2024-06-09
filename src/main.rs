@@ -1,7 +1,7 @@
-use crate::chapter_17::two_blanket_trait_example::test_two_blanket_trait_example;
+use crate::chapter_17::test_lazy_static::test_lazy_static;
 
 mod chapter_17;
 
 fn main() {
-    test_two_blanket_trait_example()
+    test_lazy_static();
 }

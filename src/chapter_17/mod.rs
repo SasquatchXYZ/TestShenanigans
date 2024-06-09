@@ -8,3 +8,4 @@ pub(crate) mod test_thiserror;
 pub(crate) mod test_blanket_trait;
 pub(crate) mod test_blanket_traits_with_errors;
 pub(crate) mod two_blanket_trait_example;
+pub(crate) mod test_lazy_static;
