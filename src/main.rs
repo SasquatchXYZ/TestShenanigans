@@ -1,7 +1,5 @@
-use crate::chapter_17::test_once_cell::test_once_cell;
-
-mod chapter_17;
+mod chapter_18;
 
 fn main() {
-    test_once_cell();
+
 }
