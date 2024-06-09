@@ -1,7 +1,7 @@
-use crate::chapter_18::test_stdin::test_stdin;
+use crate::chapter_18::test_args::test_args;
 
 mod chapter_18;
 
 fn main() {
-    test_stdin();
+    test_args();
 }
