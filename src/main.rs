@@ -1,7 +1,7 @@
-use crate::chapter_18::creating_files::creating_files;
+use crate::chapter_18::using_open_options::test_using_open_options;
 
 mod chapter_18;
 
 fn main() {
-    let result = creating_files();
+    let test = test_using_open_options();
 }
