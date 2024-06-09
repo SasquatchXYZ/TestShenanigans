@@ -1,7 +1,7 @@
-use crate::chapter_17::test_lazy_static::test_lazy_static;
+use crate::chapter_17::test_once_cell::test_once_cell;
 
 mod chapter_17;
 
 fn main() {
-    test_lazy_static();
+    test_once_cell();
 }
