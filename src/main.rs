@@ -1,7 +1,7 @@
-use crate::chapter_18::test_var_logging::test_var_logging;
+use crate::chapter_18::creating_files::creating_files;
 
 mod chapter_18;
 
 fn main() {
-    test_var_logging()
+    let result = creating_files();
 }
