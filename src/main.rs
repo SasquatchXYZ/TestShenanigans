@@ -1,7 +1,8 @@
-use crate::chapter_18::test_blocking_get::test_blocking_get;
+use crate::chapter_18::test_reqwest_with_tokio::test_request_with_tokio;
 
 mod chapter_18;
 
-fn main() {
-    test_blocking_get();
+#[tokio::main]
+async fn main() {
+    test_request_with_tokio().await;
 }
