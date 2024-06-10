@@ -1,7 +1,7 @@
-use crate::chapter_18::using_open_options::test_using_open_options;
+use crate::chapter_18::test_blocking_get::test_blocking_get;
 
 mod chapter_18;
 
 fn main() {
-    let test = test_using_open_options();
+    test_blocking_get();
 }
