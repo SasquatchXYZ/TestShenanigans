@@ -6,3 +6,5 @@ pub(crate) mod creating_files;
 pub(crate) mod using_open_options;
 pub(crate) mod test_blocking_get;
 pub(crate) mod test_reqwest_with_tokio;
+pub(crate) mod async_without_join_macro;
+mod async_with_join;
