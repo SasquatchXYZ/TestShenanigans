@@ -1,15 +1,10 @@
-use tokio::join;
-use crate::chapter_18::async_without_join_macro::wait_and_give_u8;
+use crate::chapter_18::async_without_join_macro::{test_async_with_join, test_async_without_join};
 
 mod chapter_18;
 
 #[tokio::main]
 async fn main() {
-    let nums = join!(
-        wait_and_give_u8(1),
-        wait_and_give_u8(2),
-        wait_and_give_u8(3)
-    );
+    test_async_without_join().await;
 
-    println!("{nums:?}")
+    test_async_with_join().await;
 }
