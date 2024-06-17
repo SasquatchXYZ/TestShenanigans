@@ -1,7 +1,8 @@
-use crate::chapter_18::test_var_logging::test_var_logging;
+use crate::chapter_18::async_with_try_join::test_async_with_try_join;
 
 mod chapter_18;
 
-fn main() {
-    test_var_logging()
+#[tokio::main]
+async fn main() {
+    test_async_with_try_join().await
 }
