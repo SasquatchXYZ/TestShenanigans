@@ -1,6 +1,6 @@
-use crate::chapter_18::async_with_try_join::test_async_with_try_join;
+use crate::chapter_19::async_with_try_join::test_async_with_try_join;
 
-mod chapter_18;
+mod chapter_19;
 
 #[tokio::main]
 async fn main() {
