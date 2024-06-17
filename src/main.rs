@@ -1,8 +1,7 @@
-use crate::chapter_18::async_with_try_join::test_async_with_try_join;
+use crate::chapter_20::arrays_have_iterators::test_arrays_have_iterators;
 
-mod chapter_18;
+mod chapter_20;
 
-#[tokio::main]
-async fn main() {
-    test_async_with_try_join().await
+fn main() {
+    test_arrays_have_iterators();
 }
