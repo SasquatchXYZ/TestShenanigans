@@ -1,7 +1,7 @@
-use crate::chapter_20::checked_add::test_checked_add;
+use crate::chapter_20::add_trait::test_add_trait;
 
 mod chapter_20;
 
 fn main() {
-    test_checked_add();
+    test_add_trait();
 }
