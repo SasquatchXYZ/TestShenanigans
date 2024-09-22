@@ -1,7 +1,7 @@
-use crate::chapter_20::add_trait::test_add_trait;
+use crate::chapter_20::bools::test_bools;
 
 mod chapter_20;
 
 fn main() {
-    test_add_trait();
+    test_bools();
 }
