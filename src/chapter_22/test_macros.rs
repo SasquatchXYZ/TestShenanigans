@@ -12,8 +12,18 @@ macro_rules! check {
 
 #[macro_export]
 macro_rules! print_anything {
-    ($($input1:tt), *) => {
-        let output = stringify!($($input1), *);
+    ($($input1:tt),*) => {
+        let output = stringify!($($input1),*);
         println!("{}", output);
+    };
+}
+
+#[macro_export]
+macro_rules! make_a_function {
+    ($name:ident, $($input:tt),+) => {
+        fn $name() {
+            let output = stringify!($($input),+);
+            println!("{}", output);
+        }
     };
 }
