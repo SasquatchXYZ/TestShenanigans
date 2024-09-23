@@ -12,8 +12,8 @@ macro_rules! check {
 
 #[macro_export]
 macro_rules! print_anything {
-    ($input:tt) => {
-        let output = stringify!($input);
+    ($($input1:tt), *) => {
+        let output = stringify!($($input1), *);
         println!("{}", output);
     };
 }

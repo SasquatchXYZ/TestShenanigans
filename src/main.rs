@@ -9,6 +9,7 @@ fn main() {
     check!(my_vec, vec![7, 8, 9]);
     check!(x, 10);
 
-    print_anything!(ththdoetd);
-    print_anything!(87676oehq75onth);
+    print_anything!(ththdoetd, rcofe);
+    print_anything!();
+    print_anything!(87676oehq75onth, ntohe, 987987o, 097);
 }
